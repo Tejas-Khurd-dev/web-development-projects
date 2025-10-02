@@ -1,6 +1,18 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #101a1e;
 }
 
 header {
@@ -9,7 +21,9 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgb(78, 102, 110);
-  position: fixed;
+  background-color: #101a1e;
+  padding: 20px;
+  height: 10vh;
 }
 
 .para-header {
@@ -29,9 +43,11 @@ header {
 
 .cal-body {
   width: 100%;
-  height: 100vh;
   display: flex;
+  margin-top: 25px;
+  margin-bottom: 45px;
   justify-content: center;
+  align-items: center;
   background-color: #101a1e;
 }
 
@@ -42,7 +58,6 @@ header {
   border-radius: 5%;
   margin: 20px;
   background-color: rgb(20, 22, 24);
-  margin-top: 100px;
 }
 
 .display {
@@ -83,4 +98,14 @@ header {
   transform: translateY(-2px);
   background-color: #0a38ab;
   border: none;
+}
+
+footer {
+  background-color: #101a1e;
+  color: #07bdff;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 0.9rem;
+  border-top: 1px solid #06709e;
+  height: 40px;
 }
