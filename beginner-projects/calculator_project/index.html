@@ -32,7 +32,7 @@
 
           <div class="button-container">
             <button
-              class="cal-button"
+              class="cal-button clear"
               onclick="currentDisplay = '' 
                 document.querySelector('.display').value = currentDisplay;"
             >
@@ -56,7 +56,7 @@
             </button>
 
             <button
-              class="cal-button"
+              class="cal-button operator"
               onclick="currentDisplay += '+' 
                 document.querySelector('.display').value = currentDisplay;"
             >
@@ -80,7 +80,7 @@
             </button>
 
             <button
-              class="cal-button"
+              class="cal-button operator"
               onclick="currentDisplay += '-' 
                 document.querySelector('.display').value = currentDisplay;"
             >
@@ -104,7 +104,7 @@
             </button>
 
             <button
-              class="cal-button"
+              class="cal-button operator"
               onclick="currentDisplay += '*' 
                 document.querySelector('.display').value = currentDisplay;"
             >
@@ -128,7 +128,7 @@
             </button>
 
             <button
-              class="cal-button"
+              class="cal-button operator"
               onclick="currentDisplay += '/' 
                 document.querySelector('.display').value = currentDisplay;"
             >
@@ -136,7 +136,7 @@
             </button>
 
             <button
-              class="cal-button"
+              class="cal-button equal"
               onclick="
             let result = eval(currentDisplay);
             currentDisplay = result;
@@ -161,7 +161,7 @@
               0
             </button>
             <button
-              class="cal-button"
+              class="cal-button dot"
               onclick="currentDisplay += '.' 
                 document.querySelector('.display').value = currentDisplay;"
             >
